@@ -79,9 +79,9 @@
 // console.log(str[8], str2[3]);
 
 
-// Template Literals
-let specialString = `This is a template literals ${1+2+3}`;
-console.log("Special String:", specialString)
+// // Template Literals
+// let specialString = `This is a template literals ${1+2+3}`;
+// console.log("Special String:", specialString)
 
 
 // let obj ={
@@ -91,3 +91,22 @@ console.log("Special String:", specialString)
 // }
 // let output = `the cost of ${obj.item} is ${obj.price} rupees`;
 // console.log(output);
+
+// let str = "This is a Java";
+// // let newStr = str.toUpperCase()
+// let newStr = str.toLowerCase()
+// console.log(newStr);
+
+
+// let str = "01234567"; //even when can print the string.
+// console.log(str.slice(1,4));
+
+
+// concetatnation:
+// let str = "Shubham"
+// let str2 = "Sinha"
+// let res = "I am professional developer" + str.concat(str2); // by adding the + sign we can concate the string
+// console.log(res);
+
+// let str = "Hello"
+// console.log(str.replace("H", "x"));
