@@ -113,11 +113,16 @@ functionName(); NaN not an number
 1. Arrow Functions: Compact way of writing a function 
 const functionName(param1, param2) =>{//do some work}
 
+forEach Loop in Arrays //higher order function or methods ==> it means that it take other function as parameter or returnany function.
+arr.forEach(callBackfunction)
+CallBackFunction: Here, it is a functionto execute for each elemnet in the array
+A callback is a function passed as an argument to the another function. With this we can pass three parameters (val,indx,arr) 
 
+2. Map Method in JS : Create a new array with the results of some operations. The calue its callback returns are used to form new array //similar to forEach
+arr.map(callbackFnx(value,index,array))
 
-
-
-
+3. filter Function Create a new array of elemnts that give true  for a condition/filter.
+eg: all even elemnts let newArr = arr.filter((val) =>{return val% 2 === 0})
 
 -->
     

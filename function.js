@@ -44,3 +44,43 @@
 // let mulfunction = (x,y) => {
 //     console.log (x*y);
 // }
+
+
+// forEach(function)
+
+// let arr = [1,2,3,5,6,7,9];
+
+// arr.forEach(function myClient(val){ //here val means value at each index
+// console.log(val)
+// })
+
+// arr.forEach((val) =>{
+//     console.log(val)
+// });
+
+
+// Map Function:
+// let nums = [1,2,3,4,5,6,7,]
+
+// nums.map((val) =>{
+//     console.log(val);
+// })
+
+// filter(function
+// let nums = [1,2,3,4,5,6,7,]
+
+// let evenArr = nums.filter((val) =>{
+//     return  val%2 ===0;
+// })
+
+// console.log(evenArr);
+
+//reduce = function
+
+// let arr =[1,2,3,4,5,6,];
+
+// const output = arr.reduce((res, curr) => {
+//     return res + curr;
+// })
+
+// console.log(output);
