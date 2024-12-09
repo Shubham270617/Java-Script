@@ -1,15 +1,44 @@
-h1 {
+/* /* #heading {
     color: blue;
+    background-color: aqua;
 }
 
-body {
-    background-color: antiquewhite;
-}
 
-button {
+
+/* .heading2 {
     background-color: aquamarine;
     color: black;
     border: 1px solid brown;
     padding: 10px 20px;
     cursor: pointer;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    margin: 5px;
+    background-color: aquamarine;
+    text-align: center;
+} */ 
+
+body {
+    background-color: antiquewhite;
+} 
+
+.para {
+color: blue;
+
+}
+
+.content {
+    background-color: aqua;
+}
+
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+    margin: 5px;
+    background-color: aqua;
 }

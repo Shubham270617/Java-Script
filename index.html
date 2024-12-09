@@ -135,16 +135,51 @@ Window Object = The window objects represents an open window in a browser. It br
 it is a global object with lots of properties and methods.
 What is DOM? When a web page is loaded, the nrowser created a Documnet Object Model(DOM) of the page.
 
+DOM Manipulation:
+Selecting with id: document.getElementById("myid")
+Selecting with class: document.getElementsByClassName("myclass")
+Selecting with tag: document.getElementByTagName("p")
+
+Query Selector : document.querySelector("myId/myClass/tag") //returns first element
+document.querySelectorAll("myId/myClass/tag") //return a NodeList
 
 
+Properties: 
+1. tagName: returns tag for element nodes. parent/child/sibling nodes
+2. innerText: returns the text content of the elemnet and all its children 
+3. innerHTML: returns the plain text or HTML contents in the element
+4. outerHTML: returns textual content even for hiddden elements.
 
+When DOM tree are formed it has three type of nodes 1) text node 2) coomnet node 3)element node
 
+Attributes: 1) getAttribute(attr) //to get the attribute value
+2) setAttribute(attr,value) //to set the attribute value 
 
+style node.style
 
+Insert Elemnets:
+let el = documnet.createElemnet("div");
+1) node.append(el); //adds at the end of the node(inside)
+2) node.prepend(el); //adds at the strat of node(inside)
+3) node.before(el); //adds before the node(outside)
+4) node.aftre(el); //adds after the nodes (outside)
+5) node.remove() //remove the node
 
+Events in JS
+The change in the state of an object is know as an event. Event are fired to notify code of "interesting chnages" that may affect code execution.
+Mouse events (click,doubleclick)
+keyboard events(keypress,keyup,keydown)
+form events (submit etc)
+print event and many more.
 
+node.event = () =>{//handle here} if we are handling event as inline and also in JS file the more importance will be given to JS files.
+we cannot handle one more event again.
 
+Event Objects : It is a nspecial object that has details about the event. All events handlers have access to the Event Objects properties and method 
 
+node.event = (e) => {//handler} e.target, e.type, e.clientX, e.clientY
+
+Event Listener Objects : node.addEventListener(event,callback) ,,,,,, node.removeEventListener(event, callback) // the callback reference should be same to remove.
 
 
 
@@ -165,15 +200,63 @@ What is DOM? When a web page is loaded, the nrowser created a Documnet Object Mo
 
 
 -->
- <h1>DOM Concept</h1>
+<!-- <div>ABCD
+    <div>
+        <p>Shubham</p>
+    </div>
+</div>
+ <h1 id="heading">DOM Concept</h1>
+ <h1 class="heading2">Java Script</h1>
  <h4>Topic 1</h4>
+ <p>Lets play with code this js</p>   
  <p>Lets play with  this js</p>   
- <button>Click Me</button>
+ <button class="heading2">Click Me</button> -->
+    <!-- <div>
+        <h3>Fruits</h3>
+        <ul>
+            <li>apple</li>
+            <li>mangoes</li>
+            <li>banana</li>
+            <li>oranges</li>
+        </ul>
+    </div>
+     -->
     
-    
-    
+<!-- 
+<h2>Hello JavaScript</h2>
+
+<div class="box">First Div</div>
+<div class="box">Second Div</div>
+<div class="box">Third Div</div> -->
+
+
+<!-- <p class="para">I am a paragraph</p> -->
+
+
+<!-- <div id="box">This is a box 
+    <ul>
+        <li>item1</li>
+        <li>item2</li>
+        <li>item3</li>
+        <li>item4</li>
+    </ul>
+</div>
+<p class="para"> this is paragraph</p> -->
+
+
+<button id="btn1">Click Me!</button>
+
+
+<div>This is box</div>
+
+
+
+
+
+
+
+
    
-</body>
 <!-- <script src="practice.js"></script> -->
 <!-- <script src="Variable Data Type.JS"></script> -->
  <!-- <script src="chapter2.js"></script> -->
@@ -184,6 +267,10 @@ What is DOM? When a web page is loaded, the nrowser created a Documnet Object Mo
        <!-- <script src="practice4.js"></script> -->
         <!-- <script src="function.js"></script> -->
          <!-- <script src="practice5.js"></script> -->
-          <script src="DOM1.js"></script>
+          <!-- <script src="DOM1.js"></script> -->
+           <!-- <script src="practice6.js"></script> -->
+            <!-- <script src="practice7.js"></script> -->
+             <script src="events.js"></script>
+</body>
 
 </html>
