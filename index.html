@@ -181,14 +181,29 @@ node.event = (e) => {//handler} e.target, e.type, e.clientX, e.clientY
 
 Event Listener Objects : node.addEventListener(event,callback) ,,,,,, node.removeEventListener(event, callback) // the callback reference should be same to remove.
 
+Classes and Objects :
+Prototype:
+A javascript objects is an entity having state and behavior (properties and method)
+Js objects have a special property called prototype. We can set prototype using __proto__
+If object and prototype have same method, objects method will be used.
 
 
+Classes in JS 
+Classes us a program-code template for creating objects.
+Those objects will have some state(variable) and behavior(functions) inside it.
+
+classMyclass{ constructor(){} myMethod(){}} let myObj = newMyClass();
+
+Inheritence in JS:
+it is passing down properties and method fro parent class to child class.
+class Parent {}, classChildeextendParent{} 
 
 
-
-
-
-
+Error Handling:
+try-catch
+try {
+} catch (err) {
+}
 
 
 
@@ -244,7 +259,7 @@ Event Listener Objects : node.addEventListener(event,callback) ,,,,,, node.remov
 <p class="para"> this is paragraph</p> -->
 
 
-<button id="modebtn">Change Mode!</button>
+<!-- <button id="modebtn">Change Mode!</button> -->
 
 
 <!-- <div>This is box</div> -->
@@ -271,7 +286,9 @@ Event Listener Objects : node.addEventListener(event,callback) ,,,,,, node.remov
            <!-- <script src="practice6.js"></script> -->
             <!-- <script src="practice7.js"></script> -->
              <!-- <script src="events.js"></script> -->
-             <script src="practice8.js"></script> 
+             <!-- <script src="practice8.js"></script>  -->
+              <script src="Classes & Object.js"></script>
+               <!-- <script src="practice9.js"></script> -->
 </body>
 
 </html>
