@@ -211,6 +211,39 @@ Asynchronous: Due to synchronous programming sometimes imp instruction get block
 A callback is a function passed as an argumnet to another functions.
 Call back hell: Nested callbacks stacked below one another forming a pyramid structure. (Pyrimd of Doom) This style of programming becomes difficult to understand and manages.
 
+Promises is for "eventualy" completion of task. it is an object in JS it is a solution to callback hell.
+let promise = mew Promise((resolve,reject) =>{}) // resolve and rehectrs are callbalcs provided by JS
+
+
+A javascript Promise objects can be : 1. Pending: the result is undefined 2. Resolved: the result is a value (fulfilled) 3. Rejected: the result is an error object
+** Promise has state (pending fulfilled and some result (result for resolve and roor for reject)).
+
+Async-Await: Async function always returns a promise  async function myFunc() {....} Await pauses the execution of its surrounding async functionuntil the promise is settled.
+
+
+
+Fetch API:
+The fetch API provides an interface for fetching (sending/receiving) resources.
+It uses Request and Response objects.
+The fetch() method is used to fetch a resource (data)
+
+let promise =c fetch(url, [option]);
+
+
+Understanding terms:
+AJAX : is Asynchronous JS and XML
+JSON: is JavaScript Object Notation
+
+json()method: returns a second promise that resolves with the result of prasing the response body text as JSOn (input JSON output is JS objects)
+
+
+
+
+
+
+
+
+
 
 
 
@@ -291,7 +324,8 @@ Call back hell: Nested callbacks stacked below one another forming a pyramid str
              <!-- <script src="practice8.js"></script>  -->
               <!-- <script src="Classes & Object.js"></script> -->
                <!-- <script src="practice9.js"></script> -->
-                <script src="Callback,Promises & Async-await.js"></script>
+                <!-- <script src="Callback,Promises & Async-await.js"></script> -->
+                 <script src="API.js"></script>
 </body>
 
 </html>
